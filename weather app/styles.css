@@ -1,0 +1,248 @@
+@media (max-width: 768px) {
+    body {
+        background-size: cover;
+        background-position: center;
+        background-color: gray;
+    }
+
+    .searchbar {
+        top: 5%;
+        left: 10%;
+        width: 80%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .submit {
+        width: 50%;
+        height: auto;
+        font-size: 16px;
+    }
+
+    .wsearch1 {
+        width: 80%;
+        height: auto;
+        font-size: 16px;
+    }
+    
+    .result {
+        margin-top: 10%;
+        font-size: 14px;
+        width: 90%;
+    }
+    .temp {
+        
+        margin-right: 43%;
+        font-size: 16px;
+    }
+    .wind_stuff {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wind_direction {
+        margin-left: 27%;
+    }
+
+    .wind_degree {
+        margin-left: 0;
+        text-align: center;
+    }
+
+}
+@media (max-width: 1024px) {
+    body {
+        background-size: cover;
+        background-position: center;
+        background-color: gray;
+    }
+    .searchbar {
+        top: 5%;
+        left: 15%;
+        width: 70%;
+    }
+
+    .submit {
+        width: 30%;
+        font-size: 18px;
+    }
+
+    .wsearch1 {
+        width: 70%;
+        font-size: 18px;
+    }
+
+    .result {
+        margin-top: 8%;
+        font-size: 16px;
+        width: 80%;
+    }
+}
+body{
+    background-image: url(https://img.freepik.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-8165.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+@keyframes changeToCold{
+    from {
+        background-image: url(https://img.freepik.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-8165.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    to {
+        background-image: url(https://papers.co/wallpaper/papers.co-sj21-blue-dark-sky-soft-night-gradation-blur-36-3840x2400-4k-wallpaper.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@keyframes changeToHot{
+    from {
+        background-image: url(https://img.freepik.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-8165.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    to {
+        background-image: url(https://img.freepik.com/premium-photo/blurry-image-yellow-sky-with-reflection-sun-it_792836-10526.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@keyframes changeFromHotToWarm{
+    from {
+        background-image: url(https://img.freepik.com/premium-photo/blurry-image-yellow-sky-with-reflection-sun-it_792836-10526.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    to {
+        background-image: url(https://img.freepik.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-8165.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@keyframes changeFromColdToWarm{
+    from {
+        background-image:  url(https://papers.co/wallpaper/papers.co-sj21-blue-dark-sky-soft-night-gradation-blur-36-3840x2400-4k-wallpaper.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    to {
+        background-image: url(https://img.freepik.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-8165.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@keyframes changeFromColdToHot{
+    from {
+        background-image: url(https://papers.co/wallpaper/papers.co-sj21-blue-dark-sky-soft-night-gradation-blur-36-3840x2400-4k-wallpaper.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    to {
+        background-image:  url(https://img.freepik.com/premium-photo/blurry-image-yellow-sky-with-reflection-sun-it_792836-10526.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@keyframes changeFromHotToCold{
+    from {
+        background-image: url(https://img.freepik.com/premium-photo/blurry-image-yellow-sky-with-reflection-sun-it_792836-10526.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    to {
+        background-image: url(https://papers.co/wallpaper/papers.co-sj21-blue-dark-sky-soft-night-gradation-blur-36-3840x2400-4k-wallpaper.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+.searchbar{
+    position: absolute;
+    top: 3%;
+    left: 35%;
+    width: 100%;
+    max-width: 700px;
+    height: 80%;
+    
+    text-align: center;
+}
+.submit{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 40px;
+    text-align: center;
+    width: 15%;
+    height: 8%;
+    color: white;
+    transition: background-color 0.5s, box-shadow 0.5s;
+   
+}
+.wsearch1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 8%;
+    color: white;
+    transition: background-color 0.5s, box-shadow 0.5s, transform 0.5s;
+    
+   
+}
+.wsearch1:hover {
+    background-color: #260041; 
+    
+}
+.wsearch1:focus {
+    background-color: #260041; 
+    transform: translateY(5px);
+    box-shadow: 1px 1px 20px #ffffff;
+}
+.submit:hover {
+    background-color: #260041;
+    box-shadow: 1px 1px 20px #ffffff;
+}
+.submit:active {
+    background-color: #260041;
+    transform: translateY(5px);
+}
+.temp{
+    margin-left: 42%;
+}
+.temperature{
+    margin-right: 0px;
+}
+.result{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    box-shadow: 1px 1px 20px #000000;
+    border-radius: 30px;
+    display: none;
+    margin-top: 5%;
+    margin-right: 80px;
+}
+.extra{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: none;
+    
+}
+/* .extras{
+    display: grid;
+} */
+.wind_stuff{
+    display: flex;
+    flex-direction: row;
+}
+.wind_direction{
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.wind_degree{
+    margin-left: 27%;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="searchbar">
+    
+    <input type="search" id="wsearch" class="wsearch1" placeholder="Enter a city's name" required>
+    <input type="submit" id="submit" onclick="getWeather()" class="submit">
+    <div id="result" class="result">
+        <h1 id="city" class="city"></h1>
+        <img id="temp" class="temp"></img>
+        <h1 id="temperature" class="temperature"></h1>
+        <h1 id="feels" class="feels"></h1>
+        <h1 id="desc" class="desc"></h1>
+        <div class="extra" id="extra" >
+            <h1 id="humidity" class="humidity"></h1>
+            <h1 id="wind" class="wind"></h1>
+            <h1 id="pressure" class="pressure"></h1>
+            <div class="wind_stuff">
+            <h1 id="wind_degree" class="wind_degree"></h1>
+            <img id="wind_direction" class="wind_direction"></img>
+            </div>
+        </div>
+        </div>
+        
+
+        <script src="script.js"></script>
+</body>
+</html>
