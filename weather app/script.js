@@ -1,3 +1,8 @@
+document.getElementById("wsearch").addEventListener("keydown", (event) => {
+    if (event.key === "Enter"){
+        getWeather()
+    }
+})
 let tempera = "neutral"; 
 async function getWeather() {
     try{
